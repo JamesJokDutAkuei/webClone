@@ -7,12 +7,29 @@
     justify-content: space-around;
     gap: 350px;
     background-color: white;
-    padding: 2rem;
+    padding: 1.3rem;
 }
 .subdiv1Nav > ul {
     list-style: none;
     display: flex;
     gap: 3rem;
+}
+.subdiv1Nav > ul li{
+    font-size: medium;
+    font-weight: 500;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.subdiv1Nav .logo {
+    font-size: 45px;
+    font-family: Arial, sans-serif;
+    color: #0073e6;
+}
+.subdiv1Nav .super {
+    font-size: 0.6rem;
+    vertical-align: super;
 }
 .subdiv2 {
     background-image: url("images//image1.jpeg"); /* Replace with your image path */
@@ -28,15 +45,16 @@
     flex-direction: column;
 }
 .subdiv21 {
-    width: 1200px;
+    width: 1300px;
 }
 .subdiv21 > p {
-    color: rgb(232, 221, 221);
-    font-size: 4rem;
-    font-weight: 4rem;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 3.5rem;
+    font-weight: bold;
 }
 .subdiv22 {
-    width: 1200px;
+    width: 1300px;
     border-radius: 25px;
 }
 .subdiv22 ul {
@@ -46,22 +64,27 @@
     background-color: #fbf7f7;
     padding: 10px;
     justify-content: center;
-    margin-top: 2.2rem;
+    margin-top: 1.3rem;
     border: solid white;
     border-radius: 20px;
 }
 .subdiv22 ul .list {
     border: 1px solid rgb(129, 120, 120);
     border-radius: 10px;
-    padding: 12px;
+    padding: 7px;
     display: flex;
     background-color: #ffffff;
+    font-family: Arial, sans-serif;
+    font-size: medium;
     display: flex;
     justify-content:flex-start;
     align-items: center;
 }
 .subdiv22 ul .a {
-    width: 330px;
+    width: 1200px;
+}
+.twins .twin > li {
+    list-style: none;
 }
 .subdiv22 ul > .blueB {
     background-color: rgb(20, 20, 53);
