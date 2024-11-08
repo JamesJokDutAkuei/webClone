@@ -2,14 +2,14 @@
     margin: 0;
     padding: 0;
 }
-.subdiv1 {
+.subdiv1Nav {
     display: flex;
     justify-content: space-around;
     gap: 350px;
     background-color: white;
     padding: 2rem;
 }
-.subdiv1 > ul {
+.subdiv1Nav > ul {
     list-style: none;
     display: flex;
     gap: 3rem;
@@ -27,9 +27,11 @@
     justify-content: center; /* Optional: Center inner divs horizontally */
     flex-direction: column;
 }
-
+.subdiv21 {
+    width: 1200px;
+}
 .subdiv21 > p {
-    color: white;
+    color: rgb(232, 221, 221);
     font-size: 4rem;
     font-weight: 4rem;
 }
@@ -42,19 +44,34 @@
     display: flex;
     gap: 1rem;
     background-color: #fbf7f7;
-    padding: 13px;
+    padding: 10px;
     justify-content: center;
     margin-top: 2.2rem;
     border: solid white;
-    border-radius: 15px;
+    border-radius: 20px;
 }
 .subdiv22 ul .list {
     border: 1px solid rgb(129, 120, 120);
     border-radius: 10px;
-    padding: 15px;
+    padding: 12px;
     display: flex;
     background-color: #ffffff;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
 }
 .subdiv22 ul .a {
     width: 330px;
+}
+.subdiv22 ul > .blueB {
+    background-color: rgb(20, 20, 53);
+    border-radius: 45%;
+    width: 40px;
+    padding: 15px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: #ffffff;
+    font-weight: bolder;
+    font-size: 20px;
 }
