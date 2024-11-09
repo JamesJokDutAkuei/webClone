@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+
 }
 .subdiv1Nav {
     display: flex;
@@ -20,7 +21,8 @@
     align-items: center;
     border: 1px solid rgb(197, 193, 193);
     border-radius: 60px;
-    padding: 20px 20px;
+    padding-right: 20px;
+    padding-left: 20px;
 }
 .subdiv1Nav > ul li{
     font-size: medium;
