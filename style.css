@@ -97,13 +97,20 @@
     justify-content: flex-start;
     align-items: center;
 }
+.subdiv22 ul .twins .twin .difff{
+    font-size: small;
+    margin-bottom: 2px;
+}
+.subdiv22 ul .twins .twin .diff {
+    margin-top: 2px;
+} 
 .twins .twin > li {
     list-style: none;
 }
 
 .subdiv22 ul > .blueB {
     background-color: rgb(20, 20, 53);
-    border-radius: 40px;
+    border-radius: 38px;
     width: 40px;
     padding: 15px;
     display: flex;
