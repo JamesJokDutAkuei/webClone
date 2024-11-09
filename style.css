@@ -122,3 +122,79 @@
     font-weight: bolder;
     font-size: 20px;
 }
+
+/* Top Banner */
+.banner {
+    background-color: #111e39;
+    color: #fff;
+    padding: 20px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 9px;
+    margin: 20px auto;
+    max-width: 78%;
+}
+
+.banner-content {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.banner-content i {
+    background-color: #a5c8ff; 
+    padding: 5px;
+    border-radius: 50%;
+    font-size: 20px;
+}
+
+.register-link {
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* Section Title */
+.section-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #111e39;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/* Carousel */
+.carousel {
+    display: flex;
+    overflow-x: auto;
+    gap: 16px;
+    padding: 0 20px;
+    max-width: 90%;
+    margin: auto;
+    scroll-snap-type: x mandatory;
+}
+
+.carousel-item {
+    flex: 0 0 auto;
+    width: 200px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    scroll-snap-align: start;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px 8px 0 0;
+}
+
+.carousel-item p {
+    margin: 0;
+    padding: 10px;
+    font-weight: bold;
+    color: #333;
+}
