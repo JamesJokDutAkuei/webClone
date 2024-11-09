@@ -198,3 +198,66 @@
     font-weight: bold;
     color: #333;
 }
+
+/* Section Title */
+.section-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #1a2b50;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* Carousel */
+.carousel {
+    display: flex;
+    overflow-x: auto;
+    gap: 16px;
+    padding: 0 20px;
+    max-width: 90%;
+    margin: auto;
+    scroll-snap-type: x mandatory;
+}
+
+.carousel-item {
+    flex: 0 0 auto;
+    width: 200px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    scroll-snap-align: start;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px 8px 0 0;
+}
+
+.carousel-item p {
+    margin: 0;
+    padding: 10px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    text-transform: lowercase;
+}
+
+/* Browse Trips Section */
+.browse-trips {
+    text-align: center;
+    margin-top: 20px;
+    color: #1a2b50;
+}
+
+.browse-trips h3 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.browse-trips p {
+    font-size: 1rem;
+}
